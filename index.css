@@ -1,0 +1,245 @@
+body {
+    margin: 0;
+    background-color: #FFFFFC;
+}
+
+.top-banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #0087cb;
+    font-weight: 450;
+    font-size: 1.2rem;
+    color: white;
+    padding: 5px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-decoration: none;
+}
+.top-banner > p {
+    margin: 15px;
+}
+
+.top-banner:hover {
+    color: white;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.header-utilities {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.home-search {
+    display: flex;
+    width: 50%;
+}
+
+.header-homepage-link {
+    width: auto;
+    width: 15%;
+}
+
+.header-search-bar {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+.header-search-input {
+    padding-right: 30px;
+    padding-left: 30px;
+    border-radius: 50px 0px 0px 50px;
+    border-color: lightgray;
+    height: 50px;
+    flex: 1;
+}
+
+#dropdownMenuButton {
+    border-radius: 0;
+    background-color: white;
+    color: gray;
+    border-color: lightgray;
+    height: 50px;
+}
+
+.search-submit-button {
+    display: flex;
+    align-items: center;
+    border-radius: 0 50px 50px 0;
+    height: 50px;
+    width: 50px;
+}
+
+.phone-link {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+
+    font-size: 1.5rem;
+    color: gray;
+    font-weight: 600;
+    text-decoration: none;
+    
+}
+.phone-link > p{
+    height: 1rem;
+    margin: 0;
+    font-size: 0.8rem;
+    color: gray;
+    font-weight: 400;
+    text-decoration: none;
+}
+.phone-link:hover {
+    text-decoration: none;
+    color: rgb(61, 61, 61);
+}
+.tel-cart {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    justify-content: flex-end;
+
+    width: 20%;
+}
+
+.cart-button {
+    color: #38A0E9;
+}
+.separation-line {
+    height: 35px;
+    width: 1px;
+    background-color: lightgray;
+}
+
+.nav-link {
+    color: #38A0E9;
+    margin-right: 20px;
+}
+
+.header-menu {
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: #F0F0EA;
+    font-weight: 700;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    margin-top: 50px;
+    gap: 50px;
+}
+
+.crono-banner {
+    display: flex;
+    align-items: center;
+    background-image: url(images/tecido_tricoline_estampa_coelhinho_cenoura_ovos_da_pascoa_e_ramos_fundo_azul_claro_50cm_x_1_50mt_2569_1_0a03c4691342b34d18668005ab180a62.png);
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+    border-color: #38A0E9;
+    border-style: solid;
+    border-width: 1px;
+    position: relative;
+}
+
+.offer-text {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.timer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.time-box {
+    background: #0087cb;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 10px;
+    margin: 0 3px;
+    text-align: center;
+    min-width: 40px;
+}
+
+.label {
+    font-size: 12px;
+    color: black;
+    font-weight: 500;
+    text-align: center;
+    display: block;
+    margin-top: 2px;
+}
+
+.shop-btn {
+    width: 120px;
+    text-align: center;
+    background: #0087cb;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.shop-btn:hover {
+    background: #0087cb;
+    background-color: pink;
+    color: rgb(46, 46, 46);
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 20px 10px;
+    margin: 50px auto;
+}
+
+th {
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    color: black;
+}
+
+td {
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 5px 20px;
+    font-weight: 600;
+    min-width: 200px;
+}
