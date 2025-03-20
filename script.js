@@ -7,7 +7,6 @@
     const productSizes = Array.from(productSizesSelector, option => option.value);
     let productColorsSelector = document.querySelectorAll("#SingleOptionSelector-1 > option");
     const productColors = Array.from(productColorsSelector, option => option.value);
-    let productQuantity = document.querySelector("#Quantity").value;
 
     //Definição do HTML do container do Pppup
     popupContainer.innerHTML = `
