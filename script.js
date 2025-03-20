@@ -1,4 +1,9 @@
 (function showPopup() {
+
+    if(!window.location.pathname.includes("/products/")) {
+        return;
+    }
+    
     //Declaração das variáveis
     let popupContainer = document.createElement("div");
     let productName = document.querySelector(".product-single__title").innerText;
